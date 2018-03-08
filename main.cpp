@@ -1,11 +1,11 @@
 #include <iostream>
-#include "Calculator.h"
+#include "HashmapBuilder.h"
 
 using namespace std;
 
 int main() {
-    Calculator c;
-    c.add(4, 10);
-    cout << c.getResult() << endl;
+
+    HashmapBuilder hb;
+
     return 0;
 }
